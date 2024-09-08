@@ -1,0 +1,425 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="sticky top-0 bg-white cursor-pointer scroll:bg-transparent">
+        <nav class="container sticky top-0 flex items-center justify-between w-full gap-5">
+            <img src="https://restorangaruda.com/images/logo.png" alt="logo" class="py-2 ml-36">
+
+            <!-- Hamburger Icon -->
+            <div id="hamburger" class="block px-5 py-5 text-left cursor-pointer lg:hidden ">
+                <div class="w-6 h-0.5 bg-black mb-1"></div>
+                <div class="w-6 h-0.5 bg-black mb-1"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul id="nav-menu"
+                class="items-center hidden gap-5 ml-auto font-bold cursor-pointer lg:flex hidden:text-left text-slate-700">
+                <li><a href="#home">Home</a></li>
+                <li><a href="./about.html">Tentang Kami</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Delivery Order</a></li>
+                <li><a href="#services">Ala Carte</a></li>
+                <li>
+                    <button class="px-4 py-2 text-white duration-300 ease-in-out bg-red-500 rounded-md"><a
+                            href="#contact">Hubungi Kami</a></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- Hero -->
+    <section id="home">
+        <div class="flex flex-col items-center justify-center w-full h-screen"
+            style="background-image: url('https://o-cdn-cas.sirclocdn.com/parenting/images/restoran-china.width-800.format-webp.webp'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <h1 class="text-7xl text-center font-['Caveat'] mb-2 text-white font-bold">Restoran Garuda</h1>
+            <p class="text-2xl text-center font-['Roboto'] text-white font-extrabold">Nikmatnya santapan, sejuta kesan
+            </p>
+        </div>
+    </section>
+
+
+    <!-- tentang kami -->
+    <section
+        class="container flex flex-col items-center justify-center lg:flex-row lg:mt-[-130px] lg:gap-5 lg:ml-10   mx-auto lg:py-5 ">
+        <div
+            class="py-5 w-full grid grid-cols-1 lg:grid-cols-2 justify-center items-center lg:mx-auto lg:gap-10 lg:w-[-500px] mx-auto">
+            <img src="./gambar/food8.jpeg" alt="foto"
+                class="w-screen lg:h-[500px] lg:w-[-700px] lg:mt-52 lg:mx-28 lg:rounded-md object-cover rounded-md mx-auto lg:hover:scale-125">
+            <img src="./gambar/food2.jpeg" alt="foto"
+                class="w-screen  mt-5 lg:mx-28 lg:h-[500px] lg:w-[700px] lg:mt-52 lg:rounded-md lg:mb-[-70px] object-cover rounded-md mx-auto lg:hover:scale-125">
+        </div>
+
+        <div
+            class="text-center mt-5 lg:mx-24 lg:text-left grid grid-cols-1 lg:ml-[80px] lg:mb-[-190px] py-10 lg:gap-2 lg:pt-5 lg:py-10 lg;pt-10 ">
+
+            <h1
+                class="text-5xl text-center font-['Caveat']  font-bold lg:text-left lg:w-[450px] lg:mb-[5px] lg:mr-5 p-10 text-red-500 lg:text-7xl mt-[5px] lg:pt-5">
+                Restoran Garuda</h1>
+                <p
+                    class="text-xl text-center lg:text-lg lg:text-left lg:w-[450px] lg:mb-[-70px] lg:mr-5 p-10 lg:mt-[-70px] mt-[-50px]">
+                    Lorem
+                    ipsum
+                    dolor sit
+                    amet consectetur adipisicing elit. Vel expedita ab voluptatibus error accusantium eos molestiae enim
+                    voluptate,
+                    quidem voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nemo ut
+                    dolores. Illo
+                    praesentium sed minima in voluptate officia. Reiciendis excepturi sunt vero consequuntur. Quisquam,
+                    debitis.
+                    Labore nam suscipit fugit.</p>
+            
+
+        </div>
+
+    </section>
+
+
+    <!-- Service Pemesanan Online -->
+    <section id="services"
+        class="container flex flex-col items-center justify-center mt-[-60px] lg:mt-[-90px] lg:gap-5 lg:mx-[60px] lg:py-28">
+        <div class="flex flex-col pt-3 mt-[40px] text-center py-7 lg:py-16 lg:mt-[10px] ">
+            <h1 class="text-5xl lg:text-8xl font-['Caveat'] text-red-500 font-bold">Services</h1>
+            <p class="text-xl lg:text-3xl font-['Roboto'] font-bold mt-[-15px] text-slate-700">Pemesanan Online</p>
+        </div>
+
+        <div
+            class="grid items-center justify-center grid-cols-1 gap-5 mx-auto mt-5 lg:grid-cols-3  lg:mt-[-20px] lg:mx-52 lg:gap-10 lg:items-center  m-[-10px] lg:w-[1200px]">
+            <div class="flex flex-col items-center text-center lg:mx-auto">
+                <img src="https://img.icons8.com/nolan/96/purchase-order.png" alt="logo">
+                <h1 class="text-xl font-bold text-red-500 lg:mb-3 lg:text-xl">Delivery Order</h1>
+                <p class="p-10 mt-[-30px] text-xl">Layanan antar gratis setiap pembelian menu makanan kami. Area layanan
+                    hingga 10
+                    KM</p>
+            </div>
+            <div class="flex flex-col items-center text-center ">
+                <img src="https://img.icons8.com/nolan/96/wish-list.png" alt="logo">
+                <h1 class="text-xl font-bold text-red-500 lg:mb-3 lg:text-xl">Ala Carte</h1>
+                <p class="p-10 text-xl mt-[-30px] ">Menikmati hidangan kami langsung di rumah/kantor Anda. Minimal order
+                    Rp500,000.-
+                </p>
+            </div>
+            <div class="flex flex-col items-center text-center">
+                <img src="https://img.icons8.com/nolan/96/natural-food.png" alt="logo">
+                <h1 class="text-xl font-bold text-red-500 lg:mb-3 lg:text-xl">Prasmanan</h1>
+                <p class="p-10 text-xl mt-[-30px]">Untuk setiap acara spesial Anda. Informasi dapat langsung hubungi
+                    kantor kami.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Cabang -->
+    <!-- <section>
+        <div class="flex flex-col mb-2 text-center">
+            <h1 class="text-5xl text-center font-['Caveat'] text-red-500 font-bold lg:text-8xl">Cabang</h1>
+            <h3 class="text-xl text-center font-['Roboto'] font-bold mt-[-15px] lg:text-3xl">Restoran Garuda</h3>
+        </div>
+        <div class="flex flex-col w-full h-screen py-5 mx-5 justify-left lg:mx-32">
+            <h2 class="text-left">Kota Medan - Berjaya Sisingamangaraja</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Jakarta </h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Bogor</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Surabaya</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Depok</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Bekasi</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Tangerang</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Cirebon</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Pekalongan</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+            <h2 class="text-left">Kota Semarang</h2>
+            <p class="text-left text-red-500 cursor-pointer">089645777826</p>
+        </div>
+    </section> -->
+
+    <!-- Menu -->
+    <section class="py-10 lg:p-10 lg:mt-[-100px]" id="menu">
+        <div class="flex flex-col pt-3 mt-[10px] text-center py-7 lg:py-16 lg:mt-[20px] mb-10">
+            <h1 class="text-5xl lg:text-8xl font-['Caveat'] text-red-500 font-bold">Spesial</h1>
+            <p class="text-xl lg:text-3xl font-['Roboto'] font-bold mt-[-15px] text-slate-700">Menu Kami</p>
+        </div>
+
+        <div
+            class="grid items-center w-full grid-cols-1 gap-5 m-auto mx-auto mb-5 p-auto gap-x-5 lg:gap-5 lg:gap-x-10 lg:grid-cols-4 lg:justify-center lg:items-center lg:mt-5">
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-5 lg:h-full lg:w-auto">
+                <img src="./gambar/food3.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Pempek</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-5 lg:h-full lg:w-auto">
+                <img src="./gambar/food4.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Gado - Gado</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-5 lg:h-full lg:w-auto">
+                <img src="./gambar/food5.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Rendang</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+
+            <div class="h-full mx-auto ml-auto rounded-md shadow-xl lg:rounded-md lg:mb-5 lg:h-full lg:w-auto">
+                <img src="./gambar/food4.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Gado - Gado</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto ml-auto rounded-md shadow-xl lg:rounded-md lg:mb-5 lg:h-full lg:w-auto">
+                <img src="./gambar/food7.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Sate</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food8.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Nasi Liwet</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto hover:scale-105">
+                <img src="./gambar/food9.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px]">
+                <h1 class="mt-5 ml-3 font-semibold">Nasi Rawon</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/bakso.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3">Bakso</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food10.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Nasi Tumpeng</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food3.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Pempek Lenjer</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food4.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Gado - Gado</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food5.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Rendang</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food6.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3">Pempek</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/food9.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Nasi Rawon</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+            <div class="h-full mx-auto rounded-md shadow-xl lg:rounded-md lg:mb-2 lg:h-full lg:w-auto">
+                <img src="./gambar/bakso.jpeg" alt="foto"
+                    class="rounded-md w-[300px] h-[200px] lg:w-[300px] lg:h-[200px] hover:scale-105">
+                <h1 class="mt-5 ml-3 font-semibold">Bakso</h1>
+                <div class="flex items-center gap-5">
+                    <p class="pr-6 mb-3 ml-3 font-semibold">Rp. 10.000</p>
+                    <button
+                        class="items-center w-20 mx-[0px] ml-auto m-4  text-center text-white bg-green-600 rounded-md mr-5">Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cabang -->
+    <section class="py-10 lg:p-10 lg:mt-[-80px]">
+        <div class="flex flex-col pt-3 mt-[10px] text-center py-7 lg:py-16 lg:mt-[20px] mb-7">
+            <h1 class="text-5xl lg:text-8xl font-['Caveat'] text-red-500 font-bold">Cabang</h1>
+            <p class="text-xl lg:text-3xl font-['Roboto'] font-bold mt-[-15px] text-slate-700">Restoran Garuda</p>
+        </div>
+
+        <div
+            class="grid items-center justify-center grid-cols-1 gap-2 p-4 m-3 mx-auto lg:grid-cols-4 lg:mt-6 mt-[-10px]">
+            <div class="items-center justify-center mx-auto"><img src="./gambar/garuda1.jpeg" alt="garuda"
+                    class="rounded-md w-[300px] h-[270px] lg:h-[300px] lg:w-[250px] mb-3 lg:hover:scale-125">
+                <h1 class="mt-1 mb-5 text-xl font-bold text-red-500">Kota Jakarta</h1>
+            </div>
+            <div class="items-center justify-center mx-auto"><img src="./gambar/garuda2.jpeg" alt="garuda"
+                    class="rounded-md w-[300px] h-[270px] lg:h-[300px] lg:w-[250px] mb-3 lg:hover:scale-125">
+                <h1 class="mt-1 text-xl font-bold text-red-500 mb-7">Kota Depok</h1>
+            </div>
+            <div class="items-center justify-center mx-auto"><img src="./gambar/garuda3.jpeg" alt="garuda"
+                    class="rounded-md w-[300px] h-[270px] lg:h-[300px] lg:w-[250px] mb-3 lg:hover:scale-125">
+                <h1 class="mt-1 mb-5 text-xl font-bold text-red-500">Kota Bekasi</h1>
+            </div>
+            <div class="items-center justify-center mx-auto"><img src="./gambar/garuda4.jpeg" alt="garuda"
+                    class="rounded-md w-[300px] h-[270px] lg:h-[300px] lg:w-[250px] mb-3 lg:hover:scale-125">
+                <h1 class="mt-1 mb-5 text-xl font-bold text-red-500">Kota Tangerang</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="contact" class="bg-slate-200">
+        <div class="grid items-center justify-center grid-cols-1 gap-2 p-10 m-0 mx-auto lg:grid-cols-3">
+            <div class="flex flex-col items-center justify-center mb-4 text-center lg:justify-start lg:items-start">
+                <h1 class="mb-4 text-2xl font-bold text-red-500 lg:text-left">Restoran Garuda</h1>
+                <p class="mb-5 lg:text-left">Restoran Garuda telah berdiri sejak 1976 hingga saat ini. Kami bergerak
+                    dibidang
+                    mengelolah makanan
+                    yang spesifik yaitu
+                    Minang dan Melayu</p>
+                <p
+                    class="flex items-center justify-center gap-4 mb-4 text-center flex-col-2 lg:justify-start lg:items-start">
+                    <img src="./gambar/fb.png" alt="logo" class="w-10 h-10 rounded-full lg:items-start lg:mr-4">
+                    <img src="./gambar/instagram.jpeg" alt="logo" class="w-10 h-10 rounded-full lg:items-start">
+                </p>
+
+            </div>
+            <div class="flex flex-col items-center justify-center mb-4 lg:ml-20 text- lg:justify-start lg:items-start">
+                <h1 class="mb-4 text-2xl font-bold text-left text-red-500">Open Hours</h1>
+                <div
+                    class="items-center justify-center w-full max-w-lg mx-auto text-center lg:justify-start lg;items-start lg:text-left">
+                    <p>Senin
+                        9:00 - 20:00
+                    </p>
+                    <p>Selasa
+                        9:00 - 20:00</p>
+                    <p>Rabu
+                        9:00 - 20:00</p>
+                    <p>Kamis
+                        9:00 - 20:00</p>
+                    <p>Jum'at
+                        9:00 - 20:00</p>
+                    <p>Sabtu
+                        9:00 - 20:00</p>
+                    <p>Minggu
+                        9:00 - 20:00</p>
+                </div>
+
+            </div>
+            <div
+                class="flex flex-col items-center justify-center mb-4 text-center lg:text-left lg:justify-start lg:items-start">
+                <h1 class="mb-4 text-2xl font-bold text-red-500 lg:text-left">Newsletter</h1>
+                <p class="lg:text-left">Dapatkan informasi dan promo terbaru dari kami.</p>
+                <div class="w-full max-w-lg mx-auto">
+                    <form class="mt-8">
+                        <div class="grid grid-cols-1 gap-4">
+                            <input type="email" placeholder="Masukkan Email Anda"
+                                class="w-full p-2 text-center border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <input type="submit" value="Subscribe"
+                                class="w-full p-2 font-bold text-white bg-red-500 rounded-md cursor-pointer hover:bg-blue-600">
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="grid items-center justify-center grid-cols-1 gap-2 p-10 mx-auto bg-slate-200">
+        <p class="text-center">Copyright &copy; 2023 Restoran Garuda. All rights reserved.</p>
+        <p class="text-center">thanks for freepik & colorlib</p>
+    </footer>
+
+
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+            var navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@media (max-width: 1024px) {
+    #nav-menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px; /* Sesuaikan dengan tinggi header */
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding: 20px;
+    }
+    
+    /* Tampilkan hamburger icon */
+    #hamburger {
+        display: block;
+    }
+}
+
+/* Tampilkan menu saat active */
+.active {
+    display: flex !important;
+}
